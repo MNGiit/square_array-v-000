@@ -1,7 +1,7 @@
 def square_array(array)
   # your code here
   holder = 0
-  array.each do |array, *|
-    
+  array.collect do |array|
+    array * array
   end
 end
